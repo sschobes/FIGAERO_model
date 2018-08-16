@@ -1,0 +1,19 @@
+
+Some extra bits and pieces of information:
+------------------------------------------
+
+---
+
+If Glu==1 && Rock==0:
+
+Initial fraction of "glued" material = KG/(KG+KD)
+
+---
+
+Idea behind the time-dependent gluing is illustrated by the following script for checking out the respective parameters:
+
+subplot(1,4,[1 2]); hold on; fplot(@(t) KG+(KGmax-KG)*(1-exp(-t/KGgainT)),[0 360*60]); hold on; yl=get(gca,'ylim'); for jj=WT; plot([jj jj]*60,yl,':k'); end; hold off; title('KG')
+subplot(1,4,[3 4]); hold on; fplot(@(t) KD-(KD-KDmin)*(1-exp(-t/KDdecT)),[0 360*60]); hold on; yl=get(gca,'ylim'); for jj=WT; plot([jj jj]*60,yl,':k'); end; hold off; title('KD')
+
+---
+
