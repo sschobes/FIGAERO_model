@@ -9,9 +9,9 @@ This is a model framework for simulating:
    - the dissociation and/or formation of physical entities, themselves assumed non-volatile (e.g. low-volatility oligomers), but able to release and/or take up molecules able to evaporate, and
 2. the subsequent ad- and desorption of the evaporated molecules to surfaces.
 
-The underlying idea is that modeling these processes achieves a reproduction of the signal measured for individual compositions during the thermal desorption of aerosol particles using a Filter Inlet for Gases and AEROsols coupled to a Time-of-Flight Chemical Ionization Mass Spectrometer (FIGAERO-CIMS, see [Lopez-Hilfiker et al., 2014](https://www.atmos-meas-tech.net/7/983/2014/amt-7-983-2014.html).
+The underlying idea is that modeling these processes achieves a reproduction of the signal measured for individual compositions during the thermal desorption of aerosol particles using a Filter Inlet for Gases and AEROsols coupled to a Time-of-Flight Chemical Ionization Mass Spectrometer (FIGAERO-CIMS, see [Lopez-Hilfiker et al., 2014](https://www.atmos-meas-tech.net/7/983/2014/amt-7-983-2014.html)).
 Particle measurements using the FIGAERO-CIMS consist of first collecting aerosol particles on a PTFE filter, followed by their thermal desorption using the controlled heat of a clean flow of nitrogen. Molecules evaporating from the particles travel through the filter and into the CIMS detector, where they are ionized and their exact mass measured, which determines their molecular formulas. Typically, the desorption temperature is ramped linearly with time, yielding so-called thermograms for each composition, i.e. signal vs. desorption temperature. Features of these thermograms have previously been related to molecular and hence aerosol properties. The aim of our model here is to improve the scientific interpretation of these data.
-The model and its application to organic aerosol data are thoroughly described in [Schobesberger et al., 2018](https://www.atmos-chem-phys-discuss.net/acp-2018-398/).
+The model and its application to organic aerosol data are thoroughly described in [Schobesberger et al., (2018)](https://www.atmos-chem-phys-discuss.net/acp-2018-398/).
 
 ### Commitment history
 
