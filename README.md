@@ -2,6 +2,8 @@
 
 ## FIGAERO model
 
+[![DOI](https://zenodo.org/badge/144973997.svg)](https://zenodo.org/badge/latestdoi/144973997)
+
 ### Purpose
 
 This is a model framework for simulating:
